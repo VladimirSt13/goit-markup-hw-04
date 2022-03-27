@@ -59,12 +59,18 @@ img {
   margin: 0 auto;
 }
 /* Header */
+.page-header {
+  /* display: flex; */
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #ececec;
+}
 .header-logo {
   display: block;
 }
 .page-header .container {
   display: flex;
-  border-bottom: 1px solid #ececec;
 }
 .header-nav {
   display: flex;
@@ -438,7 +444,7 @@ img {
 
 /* Footer */
 .page-footer {
-  display: flex;
+  /* display: flex; */
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
