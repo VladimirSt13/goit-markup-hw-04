@@ -32,9 +32,21 @@
         </nav>
         <ul class="contact-nav list">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link">
+              <svg class="icon mail">
+                <use href="./images/sprite-opt.svg#mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
-          <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a href="tel:+380961111111" class="link">
+              <svg class="icon phone">
+                <use href="./images/sprite-opt.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
         </ul>
       </div>
     </header>
@@ -142,16 +154,61 @@
     <!-- footer -->
     <footer class="page-footer">
       <div class="container">
-        <a href="./index.html" class="logo secondary link"
-          ><span class="logo accent">Web</span>Studio
-        </a>
-        <address>
-          <ul class="contact-nav-footer list">
-            <li><p class="address">г. Киев, пр-т Леси Украинки, 26</p></li>
-            <li><a href="mailto:info@devstudio.com" class="link email">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="link tel">+38 096 111 11 11</a></li>
+        <div class="footer-address">
+          <a href="./index.html" class="logo secondary link"
+            ><span class="logo accent">Web</span>Studio
+          </a>
+          <address>
+            <ul class="contact-nav-footer list">
+              <li><p class="address">г. Киев, пр-т Леси Украинки, 26</p></li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="link email">info@devstudio.com</a>
+              </li>
+              <li><a href="tel:+380961111111" class="link tel">+38 096 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social-links">
+          <span class="footer-social-title">ПРИСОЕДИНЯЙТЕСЬ</span>
+          <ul class="footer-social-items list">
+            <li class="social-item">
+              <a href="" class="link" aria-label="Инстаграмм">
+                <div class="tumb">
+                  <svg class="icon">
+                    <use href="./images/sprite-opt.svg#instagram"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="link" aria-label="Твиттер">
+                <div class="tumb">
+                  <svg class="icon">
+                    <use href="./images/sprite-opt.svg#twitter"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="link" aria-label="Фэйсбук">
+                <div class="tumb">
+                  <svg class="icon">
+                    <use href="./images/sprite-opt.svg#facebook"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="link" aria-label="Линкедин">
+                <div class="tumb">
+                  <svg class="icon">
+                    <use href="./images/sprite-opt.svg#linkedin"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
